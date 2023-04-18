@@ -1,0 +1,18 @@
+   0 mkdir -p /home/animals/dogs
+   1 touch /home/animals/dogs/file.pluto
+   2 mkdir -p /home/animals/cats
+   3 touch /home/animals/cats/file.garfield
+   4 mkdir -p /home/animals/fish
+   5 touch /home/animals/fish/file.nemo
+   6 tree /home/
+   7 touch /tmp/file.adam
+   8 mkdir /home/humans
+   9 cp /tmp/file.adam /home/humans/
+  10 tree /home/
+  11 touch /tmp/file.evA
+  12 mv /tmp/file.evA /opt/file.eve
+  13 tree /opt/
+  14 mv /opt/file.eve /home/humans/
+  15 tree /home/
+  16 history
+  17 history > history_homework.txt
